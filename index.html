@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Informasi Akademik Kampus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo UIN">
+            <div class="header-text">
+                <h1>UNIVERSITAS ISLAM KALIMANTAN</h1>
+                <p>Teknologi Informasi</p>
+                <a href="www.uniska-bjm.ac.id">www.uniska-bjm.ac.id</a>
+            </div>
+        </div>
+        <div class="top-nav">
+            <a href="#">HOME</a>
+            <a href="#">PROFILE</a>
+            <a href="#">PASSWORD</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile-box">
+                <img src="IMG_0072.JPG" alt="Profile Picture" class="profile-pic">
+                <h3>AHMAT FAISAL</h3>
+            </div>
+            <div class="profile-details">
+                <span>NPM</span>
+                <span>:</span>
+                <span>2310010547</span>
+                <span>Fakultas</span>
+                <span>:</span>
+                <span>Teknologi Informasi</span>
+                <span>Prodi</span>
+                <span>:</span>
+                <span>Teknik Informatika</span>
+                <span>Status</span>
+                <span>:</span>
+                <span>AKTIF</span>
+            </div>
+            <div class="logout-link">
+                <a href="#">Logout</a>
+            </div>
+            <div class="menu">
+                <h4>Menu Online</h4>
+                <ul>
+                    <li><a href="#">Penyusunan KRS Online</a></li>
+                    <li><a href="#">Kuisioner Online</a></li>
+                    <li><a href="#">Akademika</a></li>
+                    <li><a href="#">Layanan Dosen</a></li>
+                    <li><a href="#">Verifikasi Absen Dosen</a></li>
+                    <li><a href="#">Menu</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="main-header">
+                <span>Semester Genap 2025/2026 | Program Studi (S1) Teknik Informatika - 65201</span>
+                <span class="breadcrumb">Rincian Pembayaran Mahasiswa Prodi Teknik Informatika</span>
+            </div>
+            <hr>
+            <div class="payment-period">
+                <label for="period">Periode :</label>
+                <select id="period">
+                    <option value="2025">2025 (2025/2026 GENAP)</option>
+                </select>
+                <button>Go</button>
+            </div>
+
+            <div class="payment-info">
+                <h4>Informasi Pembayaran</h4>
+                <ul>
+                    <li>Menampilkan pembayaran biaya  perkuliahan yang sudah dilakukan oleh mahasiswa pada BANK BNI.</li>
+                    <li>Mahasiswa bisa mengetahui jumlah biaya perkuliahan yang harus dibayarkan  yang harus dibayarkan.</li>
+                    <li>Data Pembayaran akan terupdate secara otomatis dalam 24 jam setelah mahasiswa melakukan pembayaran di bank.</li>
+                    <li>Setiap kali Mahasiswa melakukan transaksi pembayaran di bank, pastikan dan cek kembali nama rekening yang muncul di sistem bank,apakah sudah sesuai dengan nama mahasiswa tersebut.</li>
+                    <li>Keterlambatan pembayaran biaya perkuliahan lewat dari tanggal 12 di bulan februari tidak akan ikut dalam perkuliahan semester ini.</li>
+                    <li>Struk/ Bukti Pembayaran dari Bank, harap disimpan baik-baik dan tidak boleh hilang. Untuk administrasi menyerahkan bukti ini ke prodi.</li>
+                    <li>Silahkan lakukan pembayaran via BANK BNI dengan menggunakan No Pembayaran Mahasiswa yang tertera.<span class="highlight">TIDAK BOLEH BERKURANG</span> dari nominal pembayaran anda.</li>
+                    <li>No. Pembayaran via BANK BNI <span class="highlight">1961837540</span></li>
+                    <li>Sekali lagi diingatkan sebelum anda membayar harap teliti melihat nama penerima, Nama penerima harus nama Mahasiswa tersebut.</li>
+                </ul>
+            </div>
+            
+            <div class="table-section">
+                <h4>HISTORI TRANSAKSI PEMBAYARAN ANDA</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Jenis Biaya</th>
+                            <th>Biaya</th>
+                            <th>NPM</th>
+                            <th>Jumlah Dana</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>SPP</td>
+                            <td>Rp. 5.772.000</td>
+                            <td>2310010547</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>PRAKTIKUM</td>
+                            <td>Rp. 875.500</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="total-row">
+                            <td colspan="2">TOTAL BIAYA</td>
+                            <td>Rp. 6.647.500</td>
+                            <td class="text-right">TOTAL SUDAH TERBAYAR</td>
+                            <td>Rp. 0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h4 class="info-tag">TAGIHAN INI HANYA UNTUK MAHASISWA PRODI TEKNIK INFORMATIKA</h4>
+            
+            <div class="table-section">
+                <h4></h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Denda</th>
+                            <th>Sisa Pembayaran</th>
+                            <th>Minimal Pembayaran</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>-</td>
+                            <td>Rp. 6.647.500</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://si.uniska-bjm.ac.id" target="_blank">TEKNOLOGI INFORMASI</a>
+    </div>
+</body>
+</html>
